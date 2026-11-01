@@ -1,0 +1,11 @@
+brand,model,ram,screen_size,storage_capacity_gb,storage_type,cpu_brand,cpu_family,cpu_model,gpu,gpu_brand,gpu_family,has_dedicated_gpu,Actual Price (EUR),Predicted Price (EUR),Absolute Error (EUR)
+Lenovo,IdeaPad,8,14.0,256,SSD,Intel,Core i3,Intel Core i3,No Dedicated GPU,Integrated,Integrated/No Dedicated GPU,No,537.19,536.7888918379224,0.4011081620776622
+Acer,Aspire 3,4,15.6,128,SSD,AMD,AMD A-Series,AMD A9-Series 9420,AMD Radeon R5,AMD,AMD Radeon R-Series,Unknown,426.0,426.8699476021491,0.869947602149125
+Asus,VivoBook X540YA-XX519T,4,15.6,500,HDD,AMD,AMD E-Series,AMD E-Series 7110,AMD Radeon R2 Graphics,AMD,AMD Radeon Other,Unknown,349.0,348.02554817601794,0.974451823982065
+Acer,Spin 3,6,15.6,1024,HDD,Intel,Core i3,Intel Core i3 7100U,Intel HD Graphics 620,Intel,Intel HD Graphics,No,479.0,477.5855134066039,1.4144865933960773
+Lenovo,ThinkPad,8,14.0,512,SSD,Intel,Core i5,Intel Core i5,No Dedicated GPU,Integrated,Integrated/No Dedicated GPU,No,919.0,917.5401840794876,1.4598159205123693
+Lenovo,IdeaPad,8,13.3,128,SSD,Qualcomm,Snapdragon 7,Qualcomm Snapdragon 7,No Dedicated GPU,Integrated,Integrated/No Dedicated GPU,No,599.0,600.5710716438502,1.571071643850246
+Acer,Aspire ES1-533,4,15.6,500,HDD,Intel,Pentium,Intel Pentium Quad Core N4200,Intel HD Graphics 505,Intel,Intel HD Graphics,No,380.0,381.5751822237582,1.5751822237581905
+Lenovo,Thinkpad E570,8,15.6,256,SSD,Intel,Core i5,Intel Core i5 7200U,Intel HD Graphics 620,Intel,Intel HD Graphics,No,830.0,828.0934203485003,1.9065796514996691
+HP,15S,8,15.6,512,SSD,AMD,Ryzen 3,AMD Ryzen 3,No Dedicated GPU,Integrated,Integrated/No Dedicated GPU,No,479.0,476.756236085235,2.2437639147649975
+Apple,MacBook Pro,8,13.0,512,SSD,Intel,Core i5,Intel Core i5,No Dedicated GPU,Integrated,Integrated/No Dedicated GPU,No,856.08,853.7639671829924,2.316032817007681

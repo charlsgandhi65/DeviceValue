@@ -1,0 +1,5 @@
+cd "C:\Users\Asus\Desktop\Navrachana University\Data Science and Machine Learning\Project\DeviceValueAI\backend"
+
+.\venv\Scripts\Activate.ps1
+
+python main.py

@@ -1,0 +1,7 @@
+cd "C:\Users\Asus\Desktop\Navrachana University\Data Science and Machine Learning\Project"
+
+.\.venv\Scripts\Activate.ps1
+
+cd ".\Resale_Price"
+
+python -m streamlit run streamlit_app.py

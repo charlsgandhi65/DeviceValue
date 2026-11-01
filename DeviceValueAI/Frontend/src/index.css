@@ -1,0 +1,61 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Instrument Sans', 'DM Sans', ui-sans-serif, sans-serif;
+  --color-navy-950: #0a0e1a;
+  --color-navy-900: #0f1629;
+  --color-navy-800: #151d35;
+  --color-navy-700: #1c2744;
+  --color-accent-blue: #3b82f6;
+  --color-accent-violet: #8b5cf6;
+  --color-muted: #94a3b8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  background-color: var(--color-navy-950);
+  color: #f1f5f9;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: rgb(59 130 246 / 0.35);
+  color: #fff;
+}
+
+.gradient-mesh {
+  background:
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgb(59 130 246 / 0.15), transparent),
+    radial-gradient(ellipse 60% 40% at 100% 0%, rgb(139 92 246 / 0.12), transparent),
+    radial-gradient(ellipse 50% 30% at 0% 50%, rgb(59 130 246 / 0.08), transparent);
+}
+
+.card-glow {
+  box-shadow:
+    0 0 0 1px rgb(255 255 255 / 0.06),
+    0 4px 24px rgb(0 0 0 / 0.35),
+    0 0 40px rgb(59 130 246 / 0.04);
+}
+
+.input-field {
+  @apply w-full rounded-xl border border-white/10 bg-navy-900/80 px-4 py-2.5 text-sm text-white placeholder:text-slate-500 transition-colors outline-none focus:border-blue-500/50 focus:ring-2 focus:ring-blue-500/20;
+}
+
+.input-field-error {
+  @apply border-red-500/50 focus:border-red-500/50 focus:ring-red-500/20;
+}
+
+.section-anchor {
+  scroll-margin-top: 5.5rem;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
